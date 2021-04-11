@@ -1,5 +1,7 @@
 # Lecture 1: The geometric interpretation of equations
 
+[toc]
+
 This lecture is a simple intro of Linear Algebra.
 
 Beginning with solving the system of equations, we will introduce the row picture and column picture.
