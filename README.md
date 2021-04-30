@@ -8,12 +8,12 @@ Notes of MIT18.06--Linear Algebra.
 
 
 
-For a better reading experience, maybe the reference repo is the right choice for Chinese, I made this repo for several reasons:
+For a better reading experience, maybe the reference repo is a better choice for Chinese, I made this repo for several reasons:
 
 - English is the basic requirement for learning more excellent course.
 
 - most English course I made notes in English.
 
-- this practice my English writing and slow down the speed I watch the class so that I could have more time to understand the knowledge.
+- this practice my English writing and slow down the speed I watch the video so that I could have more time to understand the knowledge.
 
-Due to the Github pages can't analyse LaTex formula, so I transform the `.md` file to `.pdf`.
+Due to the Github pages can't analyse LaTex formula, so I transform the `.md` files to `.pdf`.
