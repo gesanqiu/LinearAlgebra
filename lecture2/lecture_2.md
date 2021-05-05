@@ -260,4 +260,5 @@ Define: if exist a matrix satisfy that,
 $$
 A \cdot A^{-1} = I = A^{-1} \cdot A
 $$
-we call matrix $A^{-1}$ is the inversion of matrix $A$ and matrix $A$ is i
+we call matrix $A^{-1}$ is the inversion of matrix $A$ and matrix $A$ is invertible.
+
