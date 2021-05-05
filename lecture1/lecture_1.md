@@ -13,9 +13,9 @@ Beginning with solving the system of equations, we will introduce the row pictur
 suppose we have a equations:
 $$
 \left\{
-	\begin{array}{c}
-		2x - y = 0 \\
-		-x + 2y = 3
+	\begin{array}{rl}
+		2x - y &=& 0 \\
+		-x + 2y &=& 3
 	\end{array}
 \right.
 $$
@@ -90,10 +90,10 @@ And the column picture is like this:
 Now we look at the 3x3 example(3 unknows and 3 equations):
 $$
 \left\{
-	\begin{array}{c}
-		2x - y = 0 \\
-		-x + 2y - z = -1 \\
-        -3y + 4z = 4
+	\begin{array}{rl}
+		2x - y &=& 0 \\
+		-x + 2y - z &=& -1 \\
+        -3y + 4z &=& 4
 	\end{array}
 \right.
 $$
