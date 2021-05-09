@@ -1,4 +1,6 @@
-# Matrix multiplication
+# Lecture 3: Matrix multiplication
+
+[toc]
 
 ## different ways of matrix multiplication
 
