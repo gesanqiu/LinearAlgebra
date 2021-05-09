@@ -102,3 +102,29 @@ Example, solve the equation $\begin{array}{rl}u+2v&=5\\4u+9v&=21\end{array}$.
    $$
 
 In a word, solve $L$ is quicker than $E$.
+
+## The complexity of elimination
+
+Suppose multiple and substract for one element is one operation, and matrix $A_{n*n}$.
+
+1. elimination
+
+$$
+a_{ij}-k \cdot a_{1j} \quad \text{while }2 \leq i \leq n,1 \leq j \leq n,\text{k is in}A_{i1}
+$$
+
+2. if $i=2$, there are $n-1$ rows need to substract the $row_1$ and every row has $n$ numbers need to multiple and substract, so there are $(n-1)*n$ times operation, nearly $n^2$.
+
+3. if $i=n$, only $a_{nn-1}$ need to change
+
+4. so the complexity of elimination should be:
+   $$
+   n^2+(n-1)^2+\dots+2^2+1^1\approx \frac{1}{3}n^2
+   $$
+
+5. if add one constant column  $b$, it will take
+   $$
+   (n-1)+(n-2)+\dots+2+1=\frac{n*(n-1)}{2}
+   $$
+   times operation, and if take back substitute into consideration, it will takes nearly $n^2$ times operation.
+
